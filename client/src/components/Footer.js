@@ -5,8 +5,8 @@ import styles from './Footer.module.css';
 export default function Footer() {
     const contributors = [
         {
-            name: 'Mia',
-            github: 'https://github.com/Alok Garg',
+            name: 'Alok Garg',
+            github: 'https://github.com/alokgarg003',
             linkedin: 'https://www.linkedin.com/in/alok-garg-561a16196'
         }
     ];
