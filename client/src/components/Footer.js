@@ -6,28 +6,13 @@ export default function Footer() {
     const contributors = [
         {
             name: 'Mia',
-            github: 'https://github.com/miacias',
-            linkedin: 'https://www.linkedin.com/in/miaciasullo'
-        },
-        {
-            name: 'Stevie',
-            github: 'https://github.com/OConnell-Coder',
-            linkedin: 'https://www.linkedin.com/in/stephanie-o-connell-965051274'
-        },
-        {
-            name: 'Margaret',
-            github: 'https://github.com/msaylorphila',
-            linkedin: 'https://www.linkedin.com/in/margaret-saylor'
-        },
-        {
-            name: 'Fred',
-            github: 'https://github.com/LearnedDr',
-            linkedin: 'https://www.linkedin.com/in/fredrick-chang-85987672'
+            github: 'https://github.com/Alok Garg',
+            linkedin: 'https://www.linkedin.com/in/alok-garg-561a16196'
         }
     ];
     return (
         <footer>
-            <h3 className={styles.footH}>Brew Buddies is brought to you by:</h3>
+            <h3 className={styles.footH}>Beer is brought to you by:</h3>
             <div className={styles.developers}>
             {contributors.map((coder) => {
                 return (
