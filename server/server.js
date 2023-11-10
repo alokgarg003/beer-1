@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
+const cors = require('cors'); // Import the CORS middleware
 const path = require('path');
 const { authMiddleware } = require('./utils/auth');
 
@@ -15,6 +16,9 @@ const server = new ApolloServer({
   context: authMiddleware,
 });
 const app = express();
+
+// Enable CORS for all routes
+app.use(cors());
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
