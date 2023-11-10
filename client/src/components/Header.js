@@ -14,7 +14,7 @@ export default function Header() {
   >
             <BeerLogo/>
             </Space>
-            <h1>Brew Buddies</h1>
+            <h1> Moengage </h1>
             </Row>
         </header>
     )
